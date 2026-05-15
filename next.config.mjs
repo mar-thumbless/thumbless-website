@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/thumbless-website',
-  assetPrefix: '/thumbless-website/',
 };
 
 export default nextConfig;

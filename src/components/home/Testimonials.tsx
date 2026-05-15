@@ -30,7 +30,7 @@ export function Testimonials({ t }: TestimonialsProps) {
               <div className="border-t border-slate-100 pt-5">
                 <div className="font-semibold text-slate-900">{item.author}</div>
                 <div className="text-sm text-slate-500">{item.role}</div>
-                <div className="text-sm text-primary-600 font-medium">{item.company}</div>
+                {item.company && <div className="text-sm text-primary-600 font-medium">{item.company}</div>}
               </div>
               {/* Stars */}
               <div className="flex gap-1">

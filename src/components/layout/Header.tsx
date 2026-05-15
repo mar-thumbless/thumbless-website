@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { Menu, X, ChevronDown, Globe } from 'lucide-react';
 import { locales, localeNames } from '@/lib/i18n';
@@ -70,7 +71,7 @@ export function Header({ locale, t }: HeaderProps) {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href={navLink('')} className="flex items-center gap-3 group">
-            <img src="/logo.svg" alt="thumbless.cz logo" className="w-9 h-9" />
+            <Image src="/logo.svg" alt="thumbless.cz logo" width={36} height={36} />
             <span className="text-white font-bold text-xl tracking-tight">
               thumbless.cz
             </span>

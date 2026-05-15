@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Mail, MapPin, ArrowRight } from 'lucide-react';
 import type { Locale, Translation } from '@/lib/i18n';
 import { locales, localeNames } from '@/lib/i18n';
@@ -20,7 +21,7 @@ export function Footer({ locale, t }: FooterProps) {
           {/* Brand Column */}
           <div className="lg:col-span-3 space-y-6">
             <Link href={navLink('')} className="flex items-center gap-3">
-              <img src="/logo.svg" alt="thumbless.cz logo" className="w-9 h-9" />
+              <Image src="/logo.svg" alt="thumbless.cz logo" width={36} height={36} />
               <span className="text-white font-bold text-xl tracking-tight">thumbless.cz</span>
             </Link>
             <p className="text-blue-100 text-sm leading-relaxed">{f.tagline}</p>

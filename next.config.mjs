@@ -5,9 +5,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // For GitHub Pages project deployment, set basePath to your repo name
-  // basePath: '/thumbless-web-main',
-  // assetPrefix: '/thumbless-web-main/',
+  basePath: '/thumbless-website',
+  assetPrefix: '/thumbless-website/',
 };
 
 export default nextConfig;

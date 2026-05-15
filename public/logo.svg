@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Phone body -->
+  <rect x="22" y="8" width="56" height="84" rx="10" fill="white" stroke="#1a1a1a" stroke-width="5"/>
+  <!-- Screen -->
+  <rect x="28" y="18" width="44" height="60" rx="3" fill="#f0f8ff"/>
+  <!-- T letter -->
+  <text x="50" y="64" font-family="system-ui,-apple-system,sans-serif" font-size="46" font-weight="700" text-anchor="middle" fill="#6CACE4">T</text>
+  <!-- Speaker slot -->
+  <rect x="38" y="11" width="24" height="3" rx="1.5" fill="#1a1a1a" opacity="0.3"/>
+  <!-- Home indicator -->
+  <rect x="40" y="86" width="20" height="2.5" rx="1.25" fill="#1a1a1a" opacity="0.25"/>
+</svg>

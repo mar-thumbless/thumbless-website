@@ -260,8 +260,14 @@ export const de: Translation = {
   testimonials: {
     badge: 'Kundenstimmen',
     title: 'Was unsere Kunden sagen',
-    subtitle: 'Hören Sie von den Unternehmen, mit denen wir zusammengearbeitet haben.',
+    subtitle: 'Lesen Sie von den Unternehmen, mit denen wir zusammengearbeitet haben.',
     items: [
+      {
+        quote: 'Unsere Prozesseffizienz stieg um 20 % und hat uns geholfen, die Kosten im Millionenbereich jährlich zu senken. Eine Investition, die sich lohnt. Die Zusammenarbeit mit Herrn Bezpalec und seinem Expertenteam kann ich nur empfehlen.',
+        author: 'Jaroslav Mareček',
+        role: 'Finanzanalyst',
+        company: '',
+      },
       {
         quote: 'Thumbless hat unsere Vertriebsprozesse grundlegend verändert. Die Pipedrive-Implementierung war genau das, was wir brauchten, und der laufende Support ist hervorragend.',
         author: 'Jana Procházková',
@@ -527,14 +533,7 @@ export const de: Translation = {
   imprint: {
     title: 'Impressum',
     sections: [
-      { title: 'Name', content: 'thumbless.cz' },
-      { title: 'Rechtsform', content: 'Gesellschaft mit beschränkter Haftung (s.r.o.)' },
-      { title: 'Sitz', content: 'Prag, Dvůr Králové, Tschechische Republik' },
-      { title: 'Registrierung', content: 'Eingetragen im Handelsregister beim zuständigen tschechischen Regionalgericht' },
-      { title: 'USt-IdNr.', content: 'CZ000000000' },
       { title: 'Kontakt', content: ['E-Mail: support@thumbless.cz'] },
-      { title: 'Verantwortlich für den Inhalt', content: 'Geschäftsführer, thumbless.cz' },
-      { title: 'Streitschlichtung', content: 'Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung bereit: https://ec.europa.eu/consumers/odr/' },
     ],
   },
 };

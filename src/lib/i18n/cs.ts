@@ -260,8 +260,14 @@ export const cs: Translation = {
   testimonials: {
     badge: 'Reference klientů',
     title: 'Co říkají naši klienti',
-    subtitle: 'Slyšte od firem, se kterými jsme spolupracovali.',
+    subtitle: 'Přečtěte si od firem, se kterými jsme spolupracovali.',
     items: [
+      {
+        quote: 'Naše procesní efektivita se zvýšila o 20% a pomohlo nám to snížit náklady v řádech milionu ročně. Investice, co se vyplatí. Spolupráci s panem Bezpalcem a jeho týmem odborníků můžu jen doporučit.',
+        author: 'Jaroslav Mareček',
+        role: 'Finanční analytik',
+        company: '',
+      },
       {
         quote: 'Thumbless změnil způsob, jakým řídíme náš prodejní proces. Implementace Pipedrive byla přesně to, co jsme potřebovali, a průběžná podpora je výjimečná.',
         author: 'Jana Procházková',
@@ -525,16 +531,9 @@ export const cs: Translation = {
     ],
   },
   imprint: {
-    title: 'Impressum / Právní upozornění',
+    title: 'Impressum',
     sections: [
-      { title: 'Název', content: 'thumbless.cz' },
-      { title: 'Právní forma', content: 'Společnost s ručením omezeným (s.r.o.)' },
-      { title: 'Sídlo', content: 'Praha, Dvůr Králové, Česká republika' },
-      { title: 'Registrace', content: 'Zapsána v obchodním rejstříku vedeném příslušným krajským soudem' },
-      { title: 'DIČ', content: 'CZ000000000' },
       { title: 'Kontakt', content: ['E-mail: support@thumbless.cz'] },
-      { title: 'Odpovědný za obsah', content: 'Jednatel, thumbless.cz' },
-      { title: 'Řešení sporů', content: 'Evropská komise poskytuje platformu pro online řešení sporů: https://ec.europa.eu/consumers/odr/' },
     ],
   },
 };

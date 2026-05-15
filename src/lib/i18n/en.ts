@@ -260,8 +260,14 @@ export const en: Translation = {
   testimonials: {
     badge: 'Testimonials',
     title: 'What Our Clients Say',
-    subtitle: 'Hear from the businesses we\'ve partnered with.',
+    subtitle: 'Read what the businesses we\'ve partnered with have to say.',
     items: [
+      {
+        quote: 'Our process efficiency increased by 20% and it helped us reduce costs by millions annually. An investment that pays off. I can only recommend working with Mr. Bezpalec and his team of experts.',
+        author: 'Jaroslav Mareček',
+        role: 'Financial Analyst',
+        company: '',
+      },
       {
         quote: 'Thumbless transformed how we manage our sales process. The Pipedrive implementation was exactly what we needed, and the ongoing support has been exceptional.',
         author: 'Jana Procházková',
@@ -525,16 +531,9 @@ export const en: Translation = {
     ],
   },
   imprint: {
-    title: 'Imprint / Legal Notice',
+    title: 'Imprint',
     sections: [
-      { title: 'Name', content: 'thumbless.cz' },
-      { title: 'Legal Form', content: 'Limited Liability Company (s.r.o.)' },
-      { title: 'Registered Office', content: 'Prague, Dvůr Králové, Czech Republic' },
-      { title: 'Registration', content: 'Registered in the Commercial Register maintained by the relevant Czech Regional Court' },
-      { title: 'VAT Number', content: 'CZ000000000' },
       { title: 'Contact', content: ['Email: support@thumbless.cz'] },
-      { title: 'Responsible for Content', content: 'Managing Director, thumbless.cz' },
-      { title: 'Dispute Resolution', content: 'The European Commission provides a platform for online dispute resolution: https://ec.europa.eu/consumers/odr/' },
     ],
   },
 };

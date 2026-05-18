@@ -22,7 +22,7 @@ export default function ImprintPage({ params }: { params: { locale: string } }) 
             <div className="space-y-6">
               {imp.sections.map((section, i) => (
                 <div key={i} className="grid grid-cols-3 gap-4 py-4 border-b border-white/5">
-                  <div className="text-slate-500 text-sm font-medium">{section.title}</div>
+                  <div className="text-slate-300 text-sm font-medium">{section.title}</div>
                   <div className="col-span-2 text-slate-300 text-sm">
                     {Array.isArray(section.content)
                       ? section.content.map((line, j) => <div key={j}>{line}</div>)

@@ -19,12 +19,12 @@ export default function TermsPage({ params }: { params: { locale: string } }) {
         <section className="pt-32 pb-20 section-dark">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl font-bold text-white mb-3">{terms.title}</h1>
-            <p className="text-slate-500 mb-12">{terms.lastUpdated}</p>
+            <p className="text-slate-300 mb-12">{terms.lastUpdated}</p>
             <div className="space-y-8">
               {terms.sections.map((section, i) => (
                 <div key={i}>
                   <h2 className="text-lg font-semibold text-white mb-3">{section.title}</h2>
-                  <p className="text-slate-400 leading-relaxed text-sm">{section.content}</p>
+                  <p className="text-slate-200 leading-relaxed text-sm">{section.content}</p>
                 </div>
               ))}
             </div>

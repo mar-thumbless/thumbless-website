@@ -18,7 +18,7 @@ const positions = {
       title: 'Obchodní zastoupení',
       subtitle: 'Business Development Representative',
       location: 'Praha / Remote',
-      type: 'Kontrakt nebo HPP',
+      type: 'Kontrakt',
       description:
         'Hledáme obchodního zástupce, který nám pomůže rozšiřovat portfolio klientů v Česku a Německu. Budete prvním kontaktem pro nové klienty, budete prezentovat naše technologické řešení a budovat dlouhodobé vztahy.',
       requirements: [
@@ -42,9 +42,9 @@ const positions = {
       title: 'Full-Stack Developer',
       subtitle: 'React / Node.js / Python',
       location: 'Remote / Praha',
-      type: 'Kontrakt nebo HPP',
+      type: 'Kontrakt',
       description:
-        'Hledáme zkušeného vývojáře, který se zapojí do vývoje webových aplikací, CRM integrací a automatizačních řešení. Budete pracovat na reálných projektech pro klienty z různých odvětví — od letectví po automotive.',
+        'Hledáme zkušeného vývojáře, který se zapojí do vývoje webových aplikací, CRM integrací a automatizačních řešení.',
       requirements: [
         'Znalost React, TypeScript, Node.js nebo Python',
         'Zkušenost s REST API a databázemi (PostgreSQL, MySQL)',
@@ -68,7 +68,7 @@ const positions = {
       title: 'Business Development Representative',
       subtitle: 'Sales & Partnerships',
       location: 'Prague / Remote',
-      type: 'Contract or Full-time',
+      type: 'Contract',
       description:
         'We are looking for a business development representative to help us grow our client portfolio in Czech Republic and Germany. You will be the first point of contact for new clients, presenting our technology solutions and building long-term relationships.',
       requirements: [
@@ -92,9 +92,9 @@ const positions = {
       title: 'Full-Stack Developer',
       subtitle: 'React / Node.js / Python',
       location: 'Remote / Prague',
-      type: 'Contract or Full-time',
+      type: 'Contract',
       description:
-        'We are looking for an experienced developer to join web application development, CRM integrations, and automation projects. You will work on real-world projects for clients across various industries — from aviation to automotive.',
+        'We are looking for an experienced developer to join web application development, CRM integrations, and automation projects.',
       requirements: [
         'React, TypeScript, Node.js or Python skills',
         'Experience with REST APIs and databases (PostgreSQL, MySQL)',
@@ -118,7 +118,7 @@ const positions = {
       title: 'Business Development Representative',
       subtitle: 'Vertrieb & Partnerschaften',
       location: 'Prag / Remote',
-      type: 'Vertrag oder Vollzeit',
+      type: 'Vertrag',
       description:
         'Wir suchen einen Vertriebsmitarbeiter, der uns hilft, unser Kundenportfolio in Tschechien und Deutschland auszubauen. Sie sind der erste Ansprechpartner für neue Kunden, präsentieren unsere Technologielösungen und bauen langfristige Beziehungen auf.',
       requirements: [
@@ -142,9 +142,9 @@ const positions = {
       title: 'Full-Stack Entwickler',
       subtitle: 'React / Node.js / Python',
       location: 'Remote / Prag',
-      type: 'Vertrag oder Vollzeit',
+      type: 'Vertrag',
       description:
-        'Wir suchen einen erfahrenen Entwickler für die Entwicklung von Webanwendungen, CRM-Integrationen und Automatisierungslösungen. Sie arbeiten an realen Projekten für Kunden aus verschiedenen Branchen — von der Luftfahrt bis zur Automobilindustrie.',
+        'Wir suchen einen erfahrenen Entwickler für die Entwicklung von Webanwendungen, CRM-Integrationen und Automatisierungslösungen.',
       requirements: [
         'Kenntnisse in React, TypeScript, Node.js oder Python',
         'Erfahrung mit REST-APIs und Datenbanken (PostgreSQL, MySQL)',

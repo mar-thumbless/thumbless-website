@@ -57,12 +57,6 @@ export default function AboutPage({ params }: { params: { locale: string } }) {
                   </h3>
                   <p className="text-primary-700 text-sm leading-relaxed">{a.mission.text}</p>
                 </div>
-                <div className="p-6 rounded-2xl border border-slate-100 bg-slate-50">
-                  <h3 className="font-bold text-slate-800 mb-2 flex items-center gap-2">
-                    <Eye className="w-5 h-5 text-slate-500" /> {a.vision.title}
-                  </h3>
-                  <p className="text-slate-600 text-sm leading-relaxed">{a.vision.text}</p>
-                </div>
               </div>
             </div>
           </div>

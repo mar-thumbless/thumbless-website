@@ -3,7 +3,6 @@ import type { Locale } from '@/lib/i18n';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { Hero } from '@/components/home/Hero';
-import { Stats } from '@/components/home/Stats';
 import { ServicesGrid } from '@/components/home/ServicesGrid';
 import { CRMSection } from '@/components/home/CRMSection';
 import { WebSection } from '@/components/home/WebSection';
@@ -29,7 +28,6 @@ export default function HomePage({ params }: { params: { locale: string } }) {
       <Header locale={locale} t={t} />
       <main>
         <Hero locale={locale} t={t} />
-<Stats t={t} />
         <ServicesGrid locale={locale} t={t} />
         <CRMSection locale={locale} t={t} />
         <WebSection locale={locale} t={t} />

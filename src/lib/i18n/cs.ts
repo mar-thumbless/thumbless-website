@@ -28,17 +28,12 @@ export const cs: Translation = {
     description: 'Implementujeme CRM & ERP systémy, vytváříme weby a webové aplikace na míru, automatizujeme vaše procesy a nasazujeme inteligentní AI řešení — s osobní péčí, hlubokými znalostmi a partnerským přístupem na dlouhé roky.',
     cta1: 'Objednat konzultaci zdarma',
     cta2: 'Prozkoumat naše služby',
-    stats: [
-      { value: '50+', label: 'Dokončených projektů' },
-      { value: '5+', label: 'Let na trhu' },
-    ],
+    stats: [],
   },
   trust: {
-    title: 'Výsledky mluví za vše',
+    title: '',
     subtitle: 'Čísla za naším závazkem k dokonalosti',
     items: [
-      { value: '50+', label: 'Dokončených projektů', description: 'V různých odvětvích a velikostech firem' },
-      { value: '5+', label: 'Let v oboru', description: 'Budujeme technologická partnerství, která vydrží' },
       { value: '3', label: 'Obsluhované země', description: 'Česká republika, Německo a Rakousko' },
     ],
   },
@@ -156,7 +151,7 @@ export const cs: Translation = {
   whyFamily: {
     badge: 'Proč Thumbless',
     title: 'Výhoda specializovaného technologického partnera',
-    subtitle: 'Spolupráce s námi se liší od práce s velkou agenturou nebo freelancerem.',
+    subtitle: '',
     reasons: [
       {
         title: 'Osobní odpovědnost',
@@ -402,7 +397,6 @@ export const cs: Translation = {
       title: 'Náš příběh',
       paragraphs: [
         'Thumbless vznikl ze sdílené vášně pro technologie. Jako absolventi technických vysokých škol se hlubokým zájmem o nejnovější trendy jsme se rozhodli spojit znalosti a vybudovat firmu, která přináší moderní technologická řešení s osobním přístupem.',
-        'Fungujeme již 5 let a za tu dobu jsme si vybudovali pevné místo na českém trhu a rosteme i na trhu německém — ať už jde o menší projekty přímo pro klienty, nebo větší realizace ve spolupráci s partnerskými firmami. Naše zkušenosti sahají od CRM/ERP implementací přes vývoj webových aplikací až po nasazení AI řešení.',
         'Sledujeme technologické trendy s nadšením a snažíme se je smysluplně uplatnit v praxi. Každý projekt bereme jako příležitost přinést klientovi skutečnou hodnotu — a to je to, co nás žene kupředu.',
       ],
     },
@@ -411,8 +405,8 @@ export const cs: Translation = {
       text: 'Poskytovat firmám technologická řešení, která jsou praktická, výkonná a postavená na dlouhé roky — dodávaná s osobním závazkem důvěryhodného dlouhodobého partnera.',
     },
     vision: {
-      title: 'Naše vize',
-      text: 'Svět, kde každá firma, bez ohledu na velikost, má přístup k moderní technologii implementované lidmi, kteří skutečně rozumějí jejich potřebám.',
+      title: '',
+      text: '',
     },
     values: {
       title: 'Naše hodnoty',

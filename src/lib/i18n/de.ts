@@ -28,17 +28,12 @@ export const de: Translation = {
     description: 'Wir implementieren CRM & ERP-Systeme, entwickeln maßgeschneiderte Websites und Web-Applikationen, automatisieren Ihre Workflows und setzen intelligente KI-Lösungen ein — mit persönlicher Betreuung, tiefem Fachwissen und einer Partnerschaft auf lange Sicht.',
     cta1: 'Kostenloses Erstgespräch buchen',
     cta2: 'Unsere Leistungen entdecken',
-    stats: [
-      { value: '50+', label: 'Abgeschlossene Projekte' },
-      { value: '5+', label: 'Jahre aktiv' },
-    ],
+    stats: [],
   },
   trust: {
-    title: 'Ergebnisse, die für sich sprechen',
+    title: '',
     subtitle: 'Zahlen hinter unserem Engagement für Exzellenz',
     items: [
-      { value: '50+', label: 'Abgeschlossene Projekte', description: 'In verschiedenen Branchen und Unternehmensgrößen' },
-      { value: '5+', label: 'Jahre im Geschäft', description: 'Wir bauen Technologiepartnerschaften, die halten' },
       { value: '3', label: 'Bediente Länder', description: 'Tschechische Republik, Deutschland und Österreich' },
     ],
   },
@@ -156,7 +151,7 @@ export const de: Translation = {
   whyFamily: {
     badge: 'Warum Thumbless',
     title: 'Der Vorteil eines spezialisierten Technologiepartners',
-    subtitle: 'Die Zusammenarbeit mit uns unterscheidet sich von der Arbeit mit einer großen Agentur oder einem Freelancer.',
+    subtitle: '',
     reasons: [
       {
         title: 'Persönliche Verantwortung',
@@ -402,7 +397,6 @@ export const de: Translation = {
       title: 'Unsere Geschichte',
       paragraphs: [
         'Thumbless entstand aus einer gemeinsamen Leidenschaft für Technologie. Als Absolventen technischer Hochschulen mit einem tiefen Interesse an den neuesten Trends haben wir beschlossen, unser Wissen zu bündeln und ein Unternehmen aufzubauen, das moderne Technologielösungen mit persönlichem Ansatz liefert.',
-        'Wir sind seit 5 Jahren aktiv und haben uns einen festen Platz auf dem tschechischen Markt erarbeitet, während wir auch auf dem deutschen Markt wachsen — sowohl durch direkte Kundenprojekte als auch durch größere Projekte in Zusammenarbeit mit Partnerfirmen. Unsere Erfahrung reicht von CRM/ERP-Implementierungen über die Entwicklung individueller Web-Applikationen bis hin zur KI-Lösungsimplementierung.',
         'Wir verfolgen technologische Trends mit Begeisterung und bemühen uns, sie sinnvoll in die Praxis umzusetzen. Jedes Projekt betrachten wir als Chance, dem Kunden echten Mehrwert zu liefern – und das ist es, was uns antreibt.',
       ],
     },
@@ -411,8 +405,8 @@ export const de: Translation = {
       text: 'Unternehmen mit Technologielösungen zu stärken, die praktisch, leistungsstark und langlebig sind — geliefert mit dem persönlichen Engagement eines vertrauenswürdigen, langfristigen Partners.',
     },
     vision: {
-      title: 'Unsere Vision',
-      text: 'Eine Welt, in der jedes Unternehmen, unabhängig von seiner Größe, Zugang zu moderner Technologie hat, die von Menschen implementiert wird, die ihre Bedürfnisse wirklich verstehen.',
+      title: '',
+      text: '',
     },
     values: {
       title: 'Unsere Werte',

@@ -28,17 +28,12 @@ export const en: Translation = {
     description: 'We implement CRM & ERP systems, build custom websites and web applications, automate your workflows, and deploy intelligent AI solutions — all with personal care, deep expertise, and a long-term partnership mindset.',
     cta1: 'Book a Free Consultation',
     cta2: 'Explore Our Services',
-    stats: [
-      { value: '50+', label: 'Projects Delivered' },
-      { value: '5+', label: 'Years Active' },
-    ],
+    stats: [],
   },
   trust: {
-    title: 'Results That Speak',
+    title: '',
     subtitle: 'Numbers behind our commitment to excellence',
     items: [
-      { value: '50+', label: 'Projects Completed', description: 'Across multiple industries and business sizes' },
-      { value: '5+', label: 'Years in Business', description: 'Building technology partnerships that last' },
       { value: '3', label: 'Countries Served', description: 'Czech Republic, Germany, and Austria' },
     ],
   },
@@ -156,7 +151,7 @@ export const en: Translation = {
   whyFamily: {
     badge: 'Why Thumbless',
     title: 'The Advantage of a Specialized Technology Partner',
-    subtitle: 'Working with us is different from working with a large agency or a freelancer.',
+    subtitle: '',
     reasons: [
       {
         title: 'Personal Accountability',
@@ -402,7 +397,6 @@ export const en: Translation = {
       title: 'Our Story',
       paragraphs: [
         'Thumbless was born from a shared passion for technology. As graduates of technical universities with a deep interest in the latest trends, we decided to combine our expertise and build a company that delivers modern technology solutions with a personal touch.',
-        'We\'ve been active for 5 years and have established a strong presence in the Czech market, while also growing in the German market — through both direct client projects and larger engagements in partnership with specialized firms. Our experience spans CRM/ERP implementations, custom web application development, and AI solution deployment.',
         'We follow technological trends with enthusiasm and strive to apply them meaningfully in practice. We approach every project as an opportunity to deliver real value to our clients — and that\'s what drives us forward.',
       ],
     },
@@ -411,8 +405,8 @@ export const en: Translation = {
       text: 'To empower businesses with technology solutions that are practical, powerful, and built to last — delivered with the personal commitment of a trusted long-term partner.',
     },
     vision: {
-      title: 'Our Vision',
-      text: 'A world where every business, regardless of size, has access to modern technology implemented by people who truly understand their needs.',
+      title: '',
+      text: '',
     },
     values: {
       title: 'Our Values',

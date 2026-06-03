@@ -16,7 +16,9 @@ export function WhyFamily({ t }: WhyFamilyProps) {
         <div className="text-center mb-16">
           <span className="badge mb-4">{w.badge}</span>
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4 tracking-tight">{w.title}</h2>
-          <p className="text-slate-500 text-lg max-w-2xl mx-auto">{w.subtitle}</p>
+          {w.subtitle && (
+            <p className="text-slate-500 text-lg max-w-2xl mx-auto">{w.subtitle}</p>
+          )}
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

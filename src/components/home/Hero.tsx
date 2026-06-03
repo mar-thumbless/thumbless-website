@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import type { Locale, Translation } from '@/lib/i18n';
 
 interface HeroProps {
@@ -58,7 +58,7 @@ export function Hero({ locale, t }: HeroProps) {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-16">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href={navLink('/contact')} className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-xl font-semibold bg-white text-blue-800 hover:bg-blue-50 transition-all duration-300 shadow-lg w-full sm:w-auto text-base">
               {h.cta1}
               <ArrowRight className="w-5 h-5" />
@@ -66,18 +66,6 @@ export function Hero({ locale, t }: HeroProps) {
             <Link href={navLink('/services')} className="btn-outline-white text-base px-8 py-4 w-full sm:w-auto">
               {h.cta2}
             </Link>
-          </div>
-
-          {/* Stats */}
-          <div className="grid grid-cols-2 gap-4 max-w-sm mx-auto">
-            {h.stats.map((stat, i) => (
-              <div key={i} className="card-dark p-5 text-center">
-                <div className="text-3xl font-bold mb-1 text-white">
-                  {stat.value}
-                </div>
-                <div className="text-xs text-blue-100 font-medium">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
 

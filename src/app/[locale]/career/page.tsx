@@ -3,7 +3,7 @@ import type { Locale } from '@/lib/i18n';
 import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 import { ContactCTA } from '@/components/home/ContactCTA';
-import { Briefcase, Code2, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { Briefcase, MapPin, Clock, ArrowRight } from 'lucide-react';
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -35,30 +35,6 @@ const positions = {
         'Zázemí stabilní technologické firmy',
       ],
     },
-    {
-      id: 'fullstack-dev',
-      icon: Code2,
-      tag: 'Vývoj',
-      title: 'Full-Stack Developer',
-      subtitle: 'React / Node.js / Python',
-      location: 'Remote / Praha',
-      type: 'Kontrakt',
-      description:
-        'Hledáme zkušeného vývojáře, který se zapojí do vývoje webových aplikací, CRM integrací a automatizačních řešení.',
-      requirements: [
-        'Znalost React, TypeScript, Node.js nebo Python',
-        'Zkušenost s REST API a databázemi (PostgreSQL, MySQL)',
-        'Zkušenost s CRM systémy (Pipedrive, HubSpot) výhodou',
-        'Git, Docker — samozřejmost',
-        'Zájem o AI nástroje a automatizace (n8n, LangChain)',
-      ],
-      offer: [
-        'Zajímavé projekty v CZ a DE trhu',
-        'Moderní tech stack (Next.js, Python, AI)',
-        'Plně remote nebo hybridní',
-        'Partnerství s etablovanými firmami',
-      ],
-    },
   ],
   en: [
     {
@@ -85,30 +61,6 @@ const positions = {
         'Stable technology company backing',
       ],
     },
-    {
-      id: 'fullstack-dev',
-      icon: Code2,
-      tag: 'Engineering',
-      title: 'Full-Stack Developer',
-      subtitle: 'React / Node.js / Python',
-      location: 'Remote / Prague',
-      type: 'Contract',
-      description:
-        'We are looking for an experienced developer to join web application development, CRM integrations, and automation projects.',
-      requirements: [
-        'React, TypeScript, Node.js or Python skills',
-        'Experience with REST APIs and databases (PostgreSQL, MySQL)',
-        'CRM systems experience (Pipedrive, HubSpot) is a plus',
-        'Git, Docker — standard tools',
-        'Interest in AI tools and automation (n8n, LangChain)',
-      ],
-      offer: [
-        'Interesting projects in CZ and DE markets',
-        'Modern tech stack (Next.js, Python, AI)',
-        'Fully remote or hybrid',
-        'Partnerships with established companies',
-      ],
-    },
   ],
   de: [
     {
@@ -133,30 +85,6 @@ const positions = {
         'Homeoffice oder Büro (Prag)',
         'Attraktives Provisionsmodell',
         'Stabiles Technologieunternehmen im Hintergrund',
-      ],
-    },
-    {
-      id: 'fullstack-dev',
-      icon: Code2,
-      tag: 'Entwicklung',
-      title: 'Full-Stack Entwickler',
-      subtitle: 'React / Node.js / Python',
-      location: 'Remote / Prag',
-      type: 'Vertrag',
-      description:
-        'Wir suchen einen erfahrenen Entwickler für die Entwicklung von Webanwendungen, CRM-Integrationen und Automatisierungslösungen.',
-      requirements: [
-        'Kenntnisse in React, TypeScript, Node.js oder Python',
-        'Erfahrung mit REST-APIs und Datenbanken (PostgreSQL, MySQL)',
-        'Erfahrung mit CRM-Systemen (Pipedrive, HubSpot) von Vorteil',
-        'Git, Docker — Selbstverständlichkeit',
-        'Interesse an KI-Tools und Automatisierung (n8n, LangChain)',
-      ],
-      offer: [
-        'Interessante Projekte auf dem CZ- und DE-Markt',
-        'Moderner Tech-Stack (Next.js, Python, KI)',
-        'Vollständig remote oder hybrid',
-        'Partnerschaften mit etablierten Unternehmen',
       ],
     },
   ],
